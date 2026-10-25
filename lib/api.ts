@@ -1,6 +1,6 @@
 import type { CodeRecord, DatabaseLookupResult, FullScanResponse, HealthResponse, ProductRecord, ReportRecord, ScanCodeResponse, ScanImageResponse } from "./types";
 
-export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000";
+export const API_URL = "https://verisip-backend.onrender.com";
 
 /** Thin fetch wrapper: JSON in, JSON out, readable errors. */
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
