@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Next.js builds and generated TypeScript files
+.next/
+out/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+
+# Local environment and secrets (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local Vercel project configuration
+.vercel/
+
+# Logs and test coverage
+*.log
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
